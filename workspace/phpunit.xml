@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Application Test Suite">
+            <directory suffix="Test.php">./tests/MigrationUpTest.php</directory>            
+            <directory suffix="Test.php">./modules/company/src/Tests/CompanyTest.php</directory>
+            <directory suffix="Test.php">./modules/company/src/Tests/CompanyAddressTest.php</directory>            
+            <exclude>vendor/</exclude>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./modules/company/src/Tests</directory>
+            <directory suffix=".php">./modules/company/src/Controllers</directory>
+            <directory suffix=".php">./modules/company/src/Models</directory>
+            <directory suffix=".php">./modules/company/src/Repositories</directory>
+            <directory suffix=".php">./modules/company/src/Traits</directory>
+            <directory suffix=".php">./modules/company/src/Transformers</directory>
+            <directory suffix=".php">./modules/company/src/Repositories</directory>            
+            <directory suffix=".php">./modules/company/migrations</directory>
+            <exclude>
+                <directory suffix=".php">./tests</directory>
+                <directory suffix=".php">./app</directory>
+                <directory suffix=".php">./bootstrap</directory>
+                <directory suffix=".php">./build</directory>
+                <directory suffix=".php">./config</directory>
+                <directory suffix=".php">./database</directory>
+                <directory suffix=".php">./public</directory>
+                <directory suffix=".php">./resources</directory>
+                <directory suffix=".php">./routes</directory>
+                <directory suffix=".php">./vendor</directory>
+                <directory suffix=".php">./storage</directory>
+		<directory suffix=".php">./modules/infrastructure</directory>
+		<directory suffix=".php">./modules/user</directory>                
+                <directory suffix=".php">./resources</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="./build/html" lowUpperBound="35" highLowerBound="70"/>
+        <log type="coverage-clover" target="./build/logs/clover.xml"/>
+        <log type="coverage-php" target="./build/coverage.serialized"/>
+        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+        <log type="log-junit" target="./build/logs/junit.xml" logIncompleteSkipped="false"/>
+        <log type="testdox-html" target="./build/testdox-html/testdox.html"/>
+        <log type="testdox-text" target="./build/testdox-html/testdox.txt"/>
+    </logging>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="DB_CONNECTION" value="mysql"/>
+        <env name="DB_HOST" value="silicus-mysql-db.mysql.database.azure.com"/>
+        <env name="DB_DATABASE" value="silicus_php_demo"/>
+        <env name="DB_PORT" value="3306"/>
+        <env name="DB_USERNAME" value="silicus@silicus-mysql-db"/>
+        <env name="DB_PASSWORD" value="Pa55w0rdAjay"/>        
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_DRIVER" value="sync"/>
+    </php>
+</phpunit>

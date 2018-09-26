@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Application Test Suite" tests="4" assertions="13" errors="0" failures="0" skipped="0" time="81.494041">
+    <testsuite name="MigrationUpTest" file="D:\Projects\vericheckdemo\workspace\tests\MigrationUpTest.php" tests="1" assertions="2" errors="0" failures="0" skipped="0" time="16.265073">
+      <testcase name="testUp" class="MigrationUpTest" classname="MigrationUpTest" file="D:\Projects\vericheckdemo\workspace\tests\MigrationUpTest.php" line="52" assertions="2" time="16.265073"/>
+    </testsuite>
+    <testsuite name="Modules\Company\Tests\CompanyTest\CompanyTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="15.332068">
+      <testcase name="testCRUDCompanyApi" class="Modules\Company\Tests\CompanyTest\CompanyTest" classname="Modules.Company.Tests.CompanyTest.CompanyTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyTest.php" line="77" assertions="3" time="15.332068">
+        <system-out>in list companyin list company traitin list companyin list company trait</system-out>
+      </testcase>
+    </testsuite>
+    <testsuite name="Modules\Company\Tests\CompanyAddressTest\CompanyAddressTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyAddressTest.php" tests="2" assertions="8" errors="0" failures="0" skipped="0" time="49.896900">
+      <testcase name="testCRUDAddressApi" class="Modules\Company\Tests\CompanyAddressTest\CompanyAddressTest" classname="Modules.Company.Tests.CompanyAddressTest.CompanyAddressTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyAddressTest.php" line="83" assertions="3" time="23.280179"/>
+      <testcase name="testCRUDAddressFail" class="Modules\Company\Tests\CompanyAddressTest\CompanyAddressTest" classname="Modules.Company.Tests.CompanyAddressTest.CompanyAddressTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyAddressTest.php" line="113" assertions="5" time="26.616721"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

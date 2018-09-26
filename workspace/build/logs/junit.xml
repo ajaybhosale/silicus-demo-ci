@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Application Test Suite" tests="4" assertions="13" errors="0" failures="0" skipped="0" time="13.864844">
+    <testsuite name="MigrationUpTest" file="D:\Projects\vericheckdemo\workspace\tests\MigrationUpTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="3.981493">
+      <testcase name="testUp" class="MigrationUpTest" classname="MigrationUpTest" file="D:\Projects\vericheckdemo\workspace\tests\MigrationUpTest.php" line="53" assertions="3" time="3.981493"/>
+    </testsuite>
+    <testsuite name="Modules\Company\Tests\CompanyTest\CompanyTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyTest.php" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="4.354596">
+      <testcase name="testCRUDCompanyApi" class="Modules\Company\Tests\CompanyTest\CompanyTest" classname="Modules.Company.Tests.CompanyTest.CompanyTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyTest.php" line="80" assertions="3" time="4.354596"/>
+    </testsuite>
+    <testsuite name="Modules\Company\Tests\CompanyAddressTest\CompanyAddressTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyAddressTest.php" tests="2" assertions="7" errors="0" failures="0" skipped="0" time="5.528755">
+      <testcase name="testCRUDAddressApi" class="Modules\Company\Tests\CompanyAddressTest\CompanyAddressTest" classname="Modules.Company.Tests.CompanyAddressTest.CompanyAddressTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyAddressTest.php" line="83" assertions="3" time="2.581296"/>
+      <testcase name="testCRUDAddressFail" class="Modules\Company\Tests\CompanyAddressTest\CompanyAddressTest" classname="Modules.Company.Tests.CompanyAddressTest.CompanyAddressTest" file="D:\Projects\vericheckdemo\workspace\modules\company\src\Tests\CompanyAddressTest.php" line="113" assertions="4" time="2.947459"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

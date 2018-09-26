@@ -1,0 +1,17 @@
+.error{
+        color: #D8000C;
+}
+.container-hide{
+    visibility: hidden;
+}
+.container-hide input{
+    margin-top: 0px;
+    height: 0px;
+}
+.overlay{
+    background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+}

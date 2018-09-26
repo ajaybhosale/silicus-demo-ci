@@ -1,0 +1,17 @@
+.thumbnail img{
+    height:250px;
+    width: 400px;
+}
+#products row.div pre{
+    word-break: none!important;
+    word-wrap:none!important;
+}
+.info-text pre{
+    text-align: center;
+} 
+#products .btn.btn-success{
+    margin-bottom: 20px;
+}
+.error{
+        color: #D8000C;
+}

@@ -1,0 +1,6 @@
+.error{
+        color: #D8000C;
+}
+.container-hide{width:200px;position:relative;}
+.container-hide input{width:1px;height:1px;}
+.overlay{display:block;width:208px;position:absolute;top:0px;left:0px;height:32px;background-color: #ecf0f5;}

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\Projects\vericheckdemo\workspace\modules/user</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="../.js/html5shiv.min.js"></script>
+  <script src="../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">D:\Projects\vericheckdemo\workspace\modules</a></li>
+        <li><a href="index.html">user</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controllers/LoginController.php.html#49">Modules\User\Controllers\LoginController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Login/AccessToken.php.html#39">AccessToken</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/UserAttributes.php.html#39">UserAttributes</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/ShowUser.php.html#41">ShowUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/ListUser.php.html#41">ListUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/EditUser.php.html#39">EditUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/DeleteUser.php.html#42">DeleteUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/AddUser.php.html#41">AddUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Login/UserSignInUrl.php.html#41">UserSignInUrl</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Login/UserLogout.php.html#41">UserLogout</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Login/UserAuthenticate.php.html#41">UserAuthenticate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/UserServiceProvider.php.html#42">Modules\User\UserServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#52">Modules\User\Controllers\UserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/UserTransformer.php.html#40">Modules\User\Transformers\UserTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/LoginTransformer.php.html#40">Modules\User\Transformers\LoginTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Listeners/ACL/DeleteACLMappingEventListener.php.html#43">Modules\User\Listeners\ACL\DeleteACLMappingEventListener</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudFactory.php.html#39">Modules\User\Factory\CloudFactory</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#44">Modules\User\Factory\CloudAbstract</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#44">Modules\User\Factory\Azure</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Events/ACL/DeleteACLMappingEvent.php.html#41">Modules\User\Events\ACL\DeleteACLMappingEvent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/UserValidator.php.html#39">UserValidator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#41">Modules\User\Tests\AzureTest\AzureTest</a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="src/Tests/UserTest.php.html#52">Modules\User\Tests\UserTest\UserTest</a></td><td class="text-right">34%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Factory/Azure.php.html#44">Modules\User\Factory\Azure</a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#44">Modules\User\Factory\CloudAbstract</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="src/Traits/User/AddUser.php.html#41">AddUser</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#41">Modules\User\Tests\AzureTest\AzureTest</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#52">Modules\User\Controllers\UserController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="src/Controllers/LoginController.php.html#49">Modules\User\Controllers\LoginController</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Traits/User/ListUser.php.html#41">ListUser</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Transformers/UserTransformer.php.html#40">Modules\User\Transformers\UserTransformer</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="src/Tests/UserTest.php.html#52">Modules\User\Tests\UserTest\UserTest</a></td><td class="text-right">26</td></tr>
+       <tr><td><a href="src/Transformers/LoginTransformer.php.html#40">Modules\User\Transformers\LoginTransformer</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Listeners/ACL/DeleteACLMappingEventListener.php.html#43">Modules\User\Listeners\ACL\DeleteACLMappingEventListener</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Traits/User/DeleteUser.php.html#42">DeleteUser</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Traits/User/ShowUser.php.html#41">ShowUser</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Traits/Login/AccessToken.php.html#39">AccessToken</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/Login/UserSignInUrl.php.html#41">UserSignInUrl</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/CloudFactory.php.html#39">Modules\User\Factory\CloudFactory</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/User/UserValidator.php.html#39">UserValidator</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/User/EditUser.php.html#39">EditUser</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controllers/LoginController.php.html#71"><abbr title="Modules\User\Controllers\LoginController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Login/AccessToken.php.html#54"><abbr title="AccessToken::getAccessToken">getAccessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/LoginController.php.html#94"><abbr title="Modules\User\Controllers\LoginController::signInUrl">signInUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Listeners/ACL/DeleteACLMappingEventListener.php.html#61"><abbr title="Modules\User\Listeners\ACL\DeleteACLMappingEventListener::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Listeners/ACL/DeleteACLMappingEventListener.php.html#78"><abbr title="Modules\User\Listeners\ACL\DeleteACLMappingEventListener::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#72"><abbr title="Modules\User\Tests\AzureTest\AzureTest::testCloudFactoyObject">testCloudFactoyObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#91"><abbr title="Modules\User\Tests\AzureTest\AzureTest::testCloudFactoyGetAuthorizeUrl">testCloudFactoyGetAuthorizeUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#110"><abbr title="Modules\User\Tests\AzureTest\AzureTest::testGetAdminAccessToken">testGetAdminAccessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#129"><abbr title="Modules\User\Tests\AzureTest\AzureTest::testCloudFactoryObject">testCloudFactoryObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/LoginTransformer.php.html#54"><abbr title="Modules\User\Transformers\LoginTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/UserTransformer.php.html#54"><abbr title="Modules\User\Transformers\UserTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/UserTransformer.php.html#78"><abbr title="Modules\User\Transformers\UserTransformer::_checkCompanyExist">_checkCompanyExist</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/UserServiceProvider.php.html#55"><abbr title="Modules\User\UserServiceProvider::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/UserServiceProvider.php.html#73"><abbr title="Modules\User\UserServiceProvider::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Login/UserAuthenticate.php.html#56"><abbr title="UserAuthenticate::userAuthentication">userAuthentication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#228"><abbr title="Modules\User\Factory\CloudAbstract::commonAttribute">commonAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Login/UserLogout.php.html#56"><abbr title="UserLogout::logoutUser">logoutUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Login/UserSignInUrl.php.html#56"><abbr title="UserSignInUrl::userSignInUrl">userSignInUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/AddUser.php.html#56"><abbr title="AddUser::addUser">addUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/AddUser.php.html#82"><abbr title="AddUser::_errorInvalidFirstName">_errorInvalidFirstName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/AddUser.php.html#102"><abbr title="AddUser::_errorEmailExist">_errorEmailExist</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/DeleteUser.php.html#58"><abbr title="DeleteUser::deleteUser">deleteUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/EditUser.php.html#55"><abbr title="EditUser::editUser">editUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/ListUser.php.html#56"><abbr title="ListUser::listUser">listUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/ListUser.php.html#82"><abbr title="ListUser::_createUserCollection">_createUserCollection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/ShowUser.php.html#56"><abbr title="ShowUser::showUser">showUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/UserAttributes.php.html#51"><abbr title="UserAttributes::_setUserAttributes">_setUserAttributes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/UserAttributes.php.html#77"><abbr title="UserAttributes::_setUserAttributeCode">_setUserAttributeCode</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/UserValidator.php.html#53"><abbr title="UserValidator::_userValidationRules">_userValidationRules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#250"><abbr title="Modules\User\Factory\CloudAbstract::saveCommonAttribute">saveCommonAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudFactory.php.html#54"><abbr title="Modules\User\Factory\CloudFactory::build">build</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#211"><abbr title="Modules\User\Factory\CloudAbstract::generateGraphApiUrl">generateGraphApiUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#495"><abbr title="Modules\User\Controllers\UserController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#154"><abbr title="Modules\User\Factory\Azure::_skipTokenUrl">_skipTokenUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#133"><abbr title="Modules\User\Factory\Azure::_searchUserNameUrl">_searchUserNameUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#110"><abbr title="Modules\User\Factory\Azure::_commonSearch">_commonSearch</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#81"><abbr title="Modules\User\Factory\Azure::all">all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#61"><abbr title="Modules\User\Factory\Azure::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Events/ACL/DeleteACLMappingEvent.php.html#57"><abbr title="Modules\User\Events\ACL\DeleteACLMappingEvent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#411"><abbr title="Modules\User\Controllers\UserController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#194"><abbr title="Modules\User\Factory\Azure::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#322"><abbr title="Modules\User\Controllers\UserController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#242"><abbr title="Modules\User\Controllers\UserController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#159"><abbr title="Modules\User\Controllers\UserController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#81"><abbr title="Modules\User\Controllers\UserController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/LoginController.php.html#142"><abbr title="Modules\User\Controllers\LoginController::getAdminAccessToken">getAdminAccessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/LoginController.php.html#126"><abbr title="Modules\User\Controllers\LoginController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/LoginController.php.html#110"><abbr title="Modules\User\Controllers\LoginController::authenticate">authenticate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#173"><abbr title="Modules\User\Factory\Azure::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#219"><abbr title="Modules\User\Factory\Azure::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#183"><abbr title="Modules\User\Factory\CloudAbstract::getAdminAccessToken">getAdminAccessToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#241"><abbr title="Modules\User\Factory\Azure::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#169"><abbr title="Modules\User\Factory\CloudAbstract::getLogoutUrl">getLogoutUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#148"><abbr title="Modules\User\Factory\CloudAbstract::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#119"><abbr title="Modules\User\Factory\CloudAbstract::authenticate">authenticate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#91"><abbr title="Modules\User\Factory\CloudAbstract::getAuthorizeUrl">getAuthorizeUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#66"><abbr title="Modules\User\Factory\CloudAbstract::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#336"><abbr title="Modules\User\Factory\Azure::_createAzureCompany">_createAzureCompany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#315"><abbr title="Modules\User\Factory\Azure::_createAzurePassword">_createAzurePassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#290"><abbr title="Modules\User\Factory\Azure::_createAzureEmail">_createAzureEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#264"><abbr title="Modules\User\Factory\Azure::_transform">_transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/User/UserValidator.php.html#84"><abbr title="UserValidator::_userValidationMessage">_userValidationMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/UserTest.php.html#94"><abbr title="Modules\User\Tests\UserTest\UserTest::testGetUserById">testGetUserById</abbr></a></td><td class="text-right">7%</td></tr>
+       <tr><td><a href="src/Tests/UserTest.php.html#150"><abbr title="Modules\User\Tests\UserTest\UserTest::testUpdateApplicationToken">testUpdateApplicationToken</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="src/Tests/UserTest.php.html#182"><abbr title="Modules\User\Tests\UserTest\UserTest::testGetSignOutUrl">testGetSignOutUrl</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="src/Tests/UserTest.php.html#198"><abbr title="Modules\User\Tests\UserTest\UserTest::testSearchUser">testSearchUser</abbr></a></td><td class="text-right">28%</td></tr>
+       <tr><td><a href="src/Tests/UserTest.php.html#77"><abbr title="Modules\User\Tests\UserTest\UserTest::testUserList">testUserList</abbr></a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#57"><abbr title="Modules\User\Tests\AzureTest\AzureTest::testUpdateApplicationToken">testUpdateApplicationToken</abbr></a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Traits/User/ShowUser.php.html#56"><abbr title="ShowUser::showUser">showUser</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Traits/User/DeleteUser.php.html#58"><abbr title="DeleteUser::deleteUser">deleteUser</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Transformers/LoginTransformer.php.html#54"><abbr title="Modules\User\Transformers\LoginTransformer::transform">transform</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#183"><abbr title="Modules\User\Factory\CloudAbstract::getAdminAccessToken">getAdminAccessToken</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Controllers/LoginController.php.html#71"><abbr title="Modules\User\Controllers\LoginController::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/CloudFactory.php.html#54"><abbr title="Modules\User\Factory\CloudFactory::build">build</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/User/ListUser.php.html#82"><abbr title="ListUser::_createUserCollection">_createUserCollection</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/User/ListUser.php.html#56"><abbr title="ListUser::listUser">listUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/User/AddUser.php.html#102"><abbr title="AddUser::_errorEmailExist">_errorEmailExist</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/User/AddUser.php.html#82"><abbr title="AddUser::_errorInvalidFirstName">_errorInvalidFirstName</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/User/AddUser.php.html#56"><abbr title="AddUser::addUser">addUser</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/Login/UserSignInUrl.php.html#56"><abbr title="UserSignInUrl::userSignInUrl">userSignInUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/Login/AccessToken.php.html#54"><abbr title="AccessToken::getAccessToken">getAccessToken</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Transformers/UserTransformer.php.html#54"><abbr title="Modules\User\Transformers\UserTransformer::transform">transform</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#72"><abbr title="Modules\User\Tests\AzureTest\AzureTest::testCloudFactoyObject">testCloudFactoyObject</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Controllers/UserController.php.html#81"><abbr title="Modules\User\Controllers\UserController::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Listeners/ACL/DeleteACLMappingEventListener.php.html#78"><abbr title="Modules\User\Listeners\ACL\DeleteACLMappingEventListener::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#228"><abbr title="Modules\User\Factory\CloudAbstract::commonAttribute">commonAttribute</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#61"><abbr title="Modules\User\Factory\Azure::__construct">__construct</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#81"><abbr title="Modules\User\Factory\Azure::all">all</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#110"><abbr title="Modules\User\Factory\Azure::_commonSearch">_commonSearch</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#336"><abbr title="Modules\User\Factory\Azure::_createAzureCompany">_createAzureCompany</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#315"><abbr title="Modules\User\Factory\Azure::_createAzurePassword">_createAzurePassword</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#133"><abbr title="Modules\User\Factory\Azure::_searchUserNameUrl">_searchUserNameUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#290"><abbr title="Modules\User\Factory\Azure::_createAzureEmail">_createAzureEmail</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#154"><abbr title="Modules\User\Factory\Azure::_skipTokenUrl">_skipTokenUrl</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#173"><abbr title="Modules\User\Factory\Azure::show">show</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Traits/User/EditUser.php.html#55"><abbr title="EditUser::editUser">editUser</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#264"><abbr title="Modules\User\Factory\Azure::_transform">_transform</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Factory/Azure.php.html#241"><abbr title="Modules\User\Factory\Azure::destroy">destroy</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#119"><abbr title="Modules\User\Factory\CloudAbstract::authenticate">authenticate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Transformers/UserTransformer.php.html#78"><abbr title="Modules\User\Transformers\UserTransformer::_checkCompanyExist">_checkCompanyExist</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#110"><abbr title="Modules\User\Tests\AzureTest\AzureTest::testGetAdminAccessToken">testGetAdminAccessToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Tests/AzureTest.php.html#91"><abbr title="Modules\User\Tests\AzureTest\AzureTest::testCloudFactoyGetAuthorizeUrl">testCloudFactoyGetAuthorizeUrl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Factory/CloudAbstract.php.html#91"><abbr title="Modules\User\Factory\CloudAbstract::getAuthorizeUrl">getAuthorizeUrl</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Traits/User/UserValidator.php.html#53"><abbr title="UserValidator::_userValidationRules">_userValidationRules</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Tests/UserTest.php.html#94"><abbr title="Modules\User\Tests\UserTest\UserTest::testGetUserById">testGetUserById</abbr></a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.3.2</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.9</a> with <a href="https://xdebug.org/">Xdebug 2.6.0</a> and <a href="https://phpunit.de/">PHPUnit 6.5.11</a> at Thu Aug 16 11:28:46 UTC 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([21,1,0,0,1,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([62,1,0,3,0,0,1,1,1,0,0,1], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,7,"<a href=\"src\/Controllers\/LoginController.php.html#49\">Modules\\User\\Controllers\\LoginController<\/a>"],[0,8,"<a href=\"src\/Controllers\/UserController.php.html#52\">Modules\\User\\Controllers\\UserController<\/a>"],[0,1,"<a href=\"src\/Events\/ACL\/DeleteACLMappingEvent.php.html#41\">Modules\\User\\Events\\ACL\\DeleteACLMappingEvent<\/a>"],[0,32,"<a href=\"src\/Factory\/Azure.php.html#44\">Modules\\User\\Factory\\Azure<\/a>"],[0,16,"<a href=\"src\/Factory\/CloudAbstract.php.html#44\">Modules\\User\\Factory\\CloudAbstract<\/a>"],[0,3,"<a href=\"src\/Factory\/CloudFactory.php.html#39\">Modules\\User\\Factory\\CloudFactory<\/a>"],[0,4,"<a href=\"src\/Listeners\/ACL\/DeleteACLMappingEventListener.php.html#43\">Modules\\User\\Listeners\\ACL\\DeleteACLMappingEventListener<\/a>"],[7.6923076923076925,9,"<a href=\"src\/Tests\/AzureTest.php.html#41\">Modules\\User\\Tests\\AzureTest\\AzureTest<\/a>"],[34.146341463414636,8,"<a href=\"src\/Tests\/UserTest.php.html#52\">Modules\\User\\Tests\\UserTest\\UserTest<\/a>"],[0,4,"<a href=\"src\/Transformers\/LoginTransformer.php.html#40\">Modules\\User\\Transformers\\LoginTransformer<\/a>"],[0,5,"<a href=\"src\/Transformers\/UserTransformer.php.html#40\">Modules\\User\\Transformers\\UserTransformer<\/a>"],[0,2,"<a href=\"src\/UserServiceProvider.php.html#42\">Modules\\User\\UserServiceProvider<\/a>"],[0,3,"<a href=\"src\/Traits\/Login\/AccessToken.php.html#39\">AccessToken<\/a>"],[0,1,"<a href=\"src\/Traits\/Login\/UserAuthenticate.php.html#41\">UserAuthenticate<\/a>"],[0,1,"<a href=\"src\/Traits\/Login\/UserLogout.php.html#41\">UserLogout<\/a>"],[0,3,"<a href=\"src\/Traits\/Login\/UserSignInUrl.php.html#41\">UserSignInUrl<\/a>"],[0,9,"<a href=\"src\/Traits\/User\/AddUser.php.html#41\">AddUser<\/a>"],[0,4,"<a href=\"src\/Traits\/User\/DeleteUser.php.html#42\">DeleteUser<\/a>"],[0,2,"<a href=\"src\/Traits\/User\/EditUser.php.html#39\">EditUser<\/a>"],[0,6,"<a href=\"src\/Traits\/User\/ListUser.php.html#41\">ListUser<\/a>"],[0,4,"<a href=\"src\/Traits\/User\/ShowUser.php.html#41\">ShowUser<\/a>"],[0,2,"<a href=\"src\/Traits\/User\/UserAttributes.php.html#39\">UserAttributes<\/a>"],[0,3,"<a href=\"src\/Traits\/User\/UserValidator.php.html#39\">UserValidator<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"src\/Controllers\/LoginController.php.html#71\">Modules\\User\\Controllers\\LoginController::__construct<\/a>"],[0,1,"<a href=\"src\/Controllers\/LoginController.php.html#94\">Modules\\User\\Controllers\\LoginController::signInUrl<\/a>"],[0,1,"<a href=\"src\/Controllers\/LoginController.php.html#110\">Modules\\User\\Controllers\\LoginController::authenticate<\/a>"],[0,1,"<a href=\"src\/Controllers\/LoginController.php.html#126\">Modules\\User\\Controllers\\LoginController::logout<\/a>"],[0,1,"<a href=\"src\/Controllers\/LoginController.php.html#142\">Modules\\User\\Controllers\\LoginController::getAdminAccessToken<\/a>"],[0,3,"<a href=\"src\/Controllers\/UserController.php.html#81\">Modules\\User\\Controllers\\UserController::__construct<\/a>"],[0,1,"<a href=\"src\/Controllers\/UserController.php.html#159\">Modules\\User\\Controllers\\UserController::index<\/a>"],[0,1,"<a href=\"src\/Controllers\/UserController.php.html#242\">Modules\\User\\Controllers\\UserController::show<\/a>"],[0,1,"<a href=\"src\/Controllers\/UserController.php.html#322\">Modules\\User\\Controllers\\UserController::store<\/a>"],[0,1,"<a href=\"src\/Controllers\/UserController.php.html#411\">Modules\\User\\Controllers\\UserController::update<\/a>"],[0,1,"<a href=\"src\/Controllers\/UserController.php.html#495\">Modules\\User\\Controllers\\UserController::destroy<\/a>"],[0,1,"<a href=\"src\/Events\/ACL\/DeleteACLMappingEvent.php.html#57\">Modules\\User\\Events\\ACL\\DeleteACLMappingEvent::__construct<\/a>"],[0,3,"<a href=\"src\/Factory\/Azure.php.html#61\">Modules\\User\\Factory\\Azure::__construct<\/a>"],[0,3,"<a href=\"src\/Factory\/Azure.php.html#81\">Modules\\User\\Factory\\Azure::all<\/a>"],[0,3,"<a href=\"src\/Factory\/Azure.php.html#110\">Modules\\User\\Factory\\Azure::_commonSearch<\/a>"],[0,3,"<a href=\"src\/Factory\/Azure.php.html#133\">Modules\\User\\Factory\\Azure::_searchUserNameUrl<\/a>"],[0,3,"<a href=\"src\/Factory\/Azure.php.html#154\">Modules\\User\\Factory\\Azure::_skipTokenUrl<\/a>"],[0,2,"<a href=\"src\/Factory\/Azure.php.html#173\">Modules\\User\\Factory\\Azure::show<\/a>"],[0,1,"<a href=\"src\/Factory\/Azure.php.html#194\">Modules\\User\\Factory\\Azure::save<\/a>"],[0,1,"<a href=\"src\/Factory\/Azure.php.html#219\">Modules\\User\\Factory\\Azure::update<\/a>"],[0,2,"<a href=\"src\/Factory\/Azure.php.html#241\">Modules\\User\\Factory\\Azure::destroy<\/a>"],[0,2,"<a href=\"src\/Factory\/Azure.php.html#264\">Modules\\User\\Factory\\Azure::_transform<\/a>"],[0,3,"<a href=\"src\/Factory\/Azure.php.html#290\">Modules\\User\\Factory\\Azure::_createAzureEmail<\/a>"],[0,3,"<a href=\"src\/Factory\/Azure.php.html#315\">Modules\\User\\Factory\\Azure::_createAzurePassword<\/a>"],[0,3,"<a href=\"src\/Factory\/Azure.php.html#336\">Modules\\User\\Factory\\Azure::_createAzureCompany<\/a>"],[0,1,"<a href=\"src\/Factory\/CloudAbstract.php.html#66\">Modules\\User\\Factory\\CloudAbstract::__construct<\/a>"],[0,2,"<a href=\"src\/Factory\/CloudAbstract.php.html#91\">Modules\\User\\Factory\\CloudAbstract::getAuthorizeUrl<\/a>"],[0,2,"<a href=\"src\/Factory\/CloudAbstract.php.html#119\">Modules\\User\\Factory\\CloudAbstract::authenticate<\/a>"],[0,1,"<a href=\"src\/Factory\/CloudAbstract.php.html#148\">Modules\\User\\Factory\\CloudAbstract::logout<\/a>"],[0,1,"<a href=\"src\/Factory\/CloudAbstract.php.html#169\">Modules\\User\\Factory\\CloudAbstract::getLogoutUrl<\/a>"],[0,4,"<a href=\"src\/Factory\/CloudAbstract.php.html#183\">Modules\\User\\Factory\\CloudAbstract::getAdminAccessToken<\/a>"],[0,1,"<a href=\"src\/Factory\/CloudAbstract.php.html#211\">Modules\\User\\Factory\\CloudAbstract::generateGraphApiUrl<\/a>"],[0,3,"<a href=\"src\/Factory\/CloudAbstract.php.html#228\">Modules\\User\\Factory\\CloudAbstract::commonAttribute<\/a>"],[0,1,"<a href=\"src\/Factory\/CloudAbstract.php.html#250\">Modules\\User\\Factory\\CloudAbstract::saveCommonAttribute<\/a>"],[0,3,"<a href=\"src\/Factory\/CloudFactory.php.html#54\">Modules\\User\\Factory\\CloudFactory::build<\/a>"],[0,1,"<a href=\"src\/Listeners\/ACL\/DeleteACLMappingEventListener.php.html#61\">Modules\\User\\Listeners\\ACL\\DeleteACLMappingEventListener::__construct<\/a>"],[0,3,"<a href=\"src\/Listeners\/ACL\/DeleteACLMappingEventListener.php.html#78\">Modules\\User\\Listeners\\ACL\\DeleteACLMappingEventListener::handle<\/a>"],[66.66666666666666,1,"<a href=\"src\/Tests\/AzureTest.php.html#57\">Modules\\User\\Tests\\AzureTest\\AzureTest::testUpdateApplicationToken<\/a>"],[0,3,"<a href=\"src\/Tests\/AzureTest.php.html#72\">Modules\\User\\Tests\\AzureTest\\AzureTest::testCloudFactoyObject<\/a>"],[0,2,"<a href=\"src\/Tests\/AzureTest.php.html#91\">Modules\\User\\Tests\\AzureTest\\AzureTest::testCloudFactoyGetAuthorizeUrl<\/a>"],[0,2,"<a href=\"src\/Tests\/AzureTest.php.html#110\">Modules\\User\\Tests\\AzureTest\\AzureTest::testGetAdminAccessToken<\/a>"],[0,1,"<a href=\"src\/Tests\/AzureTest.php.html#129\">Modules\\User\\Tests\\AzureTest\\AzureTest::testCloudFactoryObject<\/a>"],[50,1,"<a href=\"src\/Tests\/UserTest.php.html#77\">Modules\\User\\Tests\\UserTest\\UserTest::testUserList<\/a>"],[7.142857142857142,2,"<a href=\"src\/Tests\/UserTest.php.html#94\">Modules\\User\\Tests\\UserTest\\UserTest::testGetUserById<\/a>"],[100,1,"<a href=\"src\/Tests\/UserTest.php.html#123\">Modules\\User\\Tests\\UserTest\\UserTest::testAddUser<\/a>"],[25,1,"<a href=\"src\/Tests\/UserTest.php.html#150\">Modules\\User\\Tests\\UserTest\\UserTest::testUpdateApplicationToken<\/a>"],[75,1,"<a href=\"src\/Tests\/UserTest.php.html#166\">Modules\\User\\Tests\\UserTest\\UserTest::testGetSignInUrl<\/a>"],[25,1,"<a href=\"src\/Tests\/UserTest.php.html#182\">Modules\\User\\Tests\\UserTest\\UserTest::testGetSignOutUrl<\/a>"],[28.57142857142857,1,"<a href=\"src\/Tests\/UserTest.php.html#198\">Modules\\User\\Tests\\UserTest\\UserTest::testSearchUser<\/a>"],[0,4,"<a href=\"src\/Transformers\/LoginTransformer.php.html#54\">Modules\\User\\Transformers\\LoginTransformer::transform<\/a>"],[0,3,"<a href=\"src\/Transformers\/UserTransformer.php.html#54\">Modules\\User\\Transformers\\UserTransformer::transform<\/a>"],[0,2,"<a href=\"src\/Transformers\/UserTransformer.php.html#78\">Modules\\User\\Transformers\\UserTransformer::_checkCompanyExist<\/a>"],[0,1,"<a href=\"src\/UserServiceProvider.php.html#55\">Modules\\User\\UserServiceProvider::boot<\/a>"],[0,1,"<a href=\"src\/UserServiceProvider.php.html#73\">Modules\\User\\UserServiceProvider::register<\/a>"],[0,3,"<a href=\"src\/Traits\/Login\/AccessToken.php.html#54\">AccessToken::getAccessToken<\/a>"],[0,1,"<a href=\"src\/Traits\/Login\/UserAuthenticate.php.html#56\">UserAuthenticate::userAuthentication<\/a>"],[0,1,"<a href=\"src\/Traits\/Login\/UserLogout.php.html#56\">UserLogout::logoutUser<\/a>"],[0,3,"<a href=\"src\/Traits\/Login\/UserSignInUrl.php.html#56\">UserSignInUrl::userSignInUrl<\/a>"],[0,3,"<a href=\"src\/Traits\/User\/AddUser.php.html#56\">AddUser::addUser<\/a>"],[0,3,"<a href=\"src\/Traits\/User\/AddUser.php.html#82\">AddUser::_errorInvalidFirstName<\/a>"],[0,3,"<a href=\"src\/Traits\/User\/AddUser.php.html#102\">AddUser::_errorEmailExist<\/a>"],[0,4,"<a href=\"src\/Traits\/User\/DeleteUser.php.html#58\">DeleteUser::deleteUser<\/a>"],[0,2,"<a href=\"src\/Traits\/User\/EditUser.php.html#55\">EditUser::editUser<\/a>"],[0,3,"<a href=\"src\/Traits\/User\/ListUser.php.html#56\">ListUser::listUser<\/a>"],[0,3,"<a href=\"src\/Traits\/User\/ListUser.php.html#82\">ListUser::_createUserCollection<\/a>"],[0,4,"<a href=\"src\/Traits\/User\/ShowUser.php.html#56\">ShowUser::showUser<\/a>"],[0,1,"<a href=\"src\/Traits\/User\/UserAttributes.php.html#51\">UserAttributes::_setUserAttributes<\/a>"],[0,1,"<a href=\"src\/Traits\/User\/UserAttributes.php.html#77\">UserAttributes::_setUserAttributeCode<\/a>"],[0,2,"<a href=\"src\/Traits\/User\/UserValidator.php.html#53\">UserValidator::_userValidationRules<\/a>"],[0,1,"<a href=\"src\/Traits\/User\/UserValidator.php.html#84\">UserValidator::_userValidationMessage<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

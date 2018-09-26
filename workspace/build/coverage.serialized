@@ -1,0 +1,2311 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\TieredPricingInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AmendmentNoteInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\ContactInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Models\\Company.php' => 
+  array (
+    109 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      2 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    112 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      2 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    114 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      2 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    115 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      2 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\CompanyInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AssignBankInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AssignFeeInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\AddressAttributes.php' => 
+  array (
+    55 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    57 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    70 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    71 => NULL,
+    84 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    85 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    86 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\CompanyAttributes.php' => 
+  array (
+    57 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    63 => NULL,
+    76 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    77 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    78 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\MarketingInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\ListCompany.php' => 
+  array (
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    94 => 
+    array (
+    ),
+    98 => 
+    array (
+    ),
+    99 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\ShowCompany.php' => 
+  array (
+    60 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Tests\\CompanyTest.php' => 
+  array (
+    63 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    64 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    65 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    66 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    67 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    68 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    69 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    82 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    84 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    85 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    86 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    87 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    88 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    90 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    95 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    96 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    97 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    98 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    111 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    112 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    113 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    114 => NULL,
+    127 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    128 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    129 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    130 => NULL,
+    143 => 
+    array (
+    ),
+    144 => 
+    array (
+    ),
+    145 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => NULL,
+    162 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    163 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    164 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    165 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    166 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Controllers\\CompanyController.php' => 
+  array (
+    84 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    85 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    86 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    87 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    209 => 
+    array (
+    ),
+    210 => NULL,
+    280 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    281 => NULL,
+    366 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    367 => NULL,
+    444 => 
+    array (
+    ),
+    445 => NULL,
+    530 => 
+    array (
+    ),
+    531 => NULL,
+    607 => 
+    array (
+    ),
+    608 => NULL,
+    623 => 
+    array (
+    ),
+    625 => 
+    array (
+    ),
+    626 => NULL,
+    641 => 
+    array (
+    ),
+    643 => 
+    array (
+    ),
+    644 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\AddCompany.php' => 
+  array (
+    59 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    60 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    61 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    62 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    63 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\CompanyActivateDeactivate.php' => 
+  array (
+    62 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    95 => 
+    array (
+    ),
+    96 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\BusinessInfoInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Transformers\\CompanyTransformer.php' => 
+  array (
+    64 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    65 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    66 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    67 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    68 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    71 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    72 => NULL,
+    87 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    88 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    89 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    90 => NULL,
+    103 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    109 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\AddCompanyAddress.php' => 
+  array (
+    66 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    67 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    68 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    70 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    72 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    74 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    75 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    76 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    78 => 
+    array (
+    ),
+    97 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    101 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    102 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    104 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    106 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    107 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    108 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\FundSecurityInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Controllers\\CompanyAddressWebController.php' => 
+  array (
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    79 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    90 => 
+    array (
+    ),
+    92 => 
+    array (
+    ),
+    93 => NULL,
+    109 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    113 => 
+    array (
+    ),
+    114 => 
+    array (
+    ),
+    115 => 
+    array (
+    ),
+    116 => 
+    array (
+    ),
+    117 => 
+    array (
+    ),
+    118 => 
+    array (
+    ),
+    119 => 
+    array (
+    ),
+    121 => 
+    array (
+    ),
+    125 => 
+    array (
+    ),
+    126 => 
+    array (
+    ),
+    130 => 
+    array (
+    ),
+    131 => 
+    array (
+    ),
+    132 => 
+    array (
+    ),
+    133 => 
+    array (
+    ),
+    134 => 
+    array (
+    ),
+    135 => 
+    array (
+    ),
+    136 => 
+    array (
+    ),
+    137 => 
+    array (
+    ),
+    138 => 
+    array (
+    ),
+    139 => 
+    array (
+    ),
+    140 => 
+    array (
+    ),
+    141 => 
+    array (
+    ),
+    143 => 
+    array (
+    ),
+    145 => 
+    array (
+    ),
+    146 => 
+    array (
+    ),
+    147 => 
+    array (
+    ),
+    149 => 
+    array (
+    ),
+    150 => 
+    array (
+    ),
+    151 => 
+    array (
+    ),
+    152 => 
+    array (
+    ),
+    153 => 
+    array (
+    ),
+    154 => 
+    array (
+    ),
+    155 => 
+    array (
+    ),
+    156 => 
+    array (
+    ),
+    158 => 
+    array (
+    ),
+    170 => 
+    array (
+    ),
+    171 => 
+    array (
+    ),
+    172 => NULL,
+    185 => 
+    array (
+    ),
+    187 => 
+    array (
+    ),
+    188 => 
+    array (
+    ),
+    190 => 
+    array (
+    ),
+    191 => 
+    array (
+    ),
+    192 => 
+    array (
+    ),
+    193 => 
+    array (
+    ),
+    194 => 
+    array (
+    ),
+    196 => 
+    array (
+    ),
+    208 => 
+    array (
+    ),
+    209 => 
+    array (
+    ),
+    210 => 
+    array (
+    ),
+    211 => 
+    array (
+    ),
+    214 => 
+    array (
+    ),
+    215 => 
+    array (
+    ),
+    217 => 
+    array (
+    ),
+    218 => 
+    array (
+    ),
+    219 => 
+    array (
+    ),
+    220 => 
+    array (
+    ),
+    221 => 
+    array (
+    ),
+    222 => 
+    array (
+    ),
+    224 => NULL,
+    235 => 
+    array (
+    ),
+    236 => 
+    array (
+    ),
+    239 => 
+    array (
+    ),
+    240 => NULL,
+    251 => 
+    array (
+    ),
+    252 => 
+    array (
+    ),
+    253 => 
+    array (
+    ),
+    254 => 
+    array (
+    ),
+    255 => 
+    array (
+    ),
+    258 => 
+    array (
+    ),
+    259 => 
+    array (
+    ),
+    260 => 
+    array (
+    ),
+    261 => 
+    array (
+    ),
+    262 => 
+    array (
+    ),
+    263 => 
+    array (
+    ),
+    264 => 
+    array (
+    ),
+    266 => 
+    array (
+    ),
+    267 => 
+    array (
+    ),
+    269 => 
+    array (
+    ),
+    270 => 
+    array (
+    ),
+    272 => NULL,
+    284 => 
+    array (
+    ),
+    286 => 
+    array (
+    ),
+    288 => 
+    array (
+    ),
+    289 => 
+    array (
+    ),
+    290 => 
+    array (
+    ),
+    291 => 
+    array (
+    ),
+    293 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Transformers\\AmendmentNoteTransformer.php' => 
+  array (
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => NULL,
+    92 => 
+    array (
+    ),
+    93 => 
+    array (
+    ),
+    94 => NULL,
+    108 => 
+    array (
+    ),
+    118 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\ShowCompanyAddress.php' => 
+  array (
+    63 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\ListCompanyAddress.php' => 
+  array (
+    66 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    77 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\AddressRepository.php' => 
+  array (
+    63 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    64 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    79 => 
+    array (
+    ),
+    80 => NULL,
+    95 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    96 => NULL,
+    112 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    113 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    114 => NULL,
+    129 => 
+    array (
+    ),
+    130 => NULL,
+    145 => 
+    array (
+    ),
+    146 => NULL,
+    161 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    162 => NULL,
+    177 => 
+    array (
+    ),
+    178 => NULL,
+    194 => 
+    array (
+    ),
+    195 => NULL,
+    208 => 
+    array (
+    ),
+    209 => NULL,
+    224 => 
+    array (
+    ),
+    226 => 
+    array (
+    ),
+    228 => 
+    array (
+    ),
+    229 => NULL,
+    244 => 
+    array (
+    ),
+    246 => 
+    array (
+    ),
+    248 => 
+    array (
+    ),
+    249 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\InformationInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\PrincipalInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Models\\CompanyAddress.php' => 
+  array (
+    69 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    71 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    72 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    73 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\CompanyAddressInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\AddressValidator.php' => 
+  array (
+    56 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    59 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    60 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    61 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    62 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    63 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    64 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    65 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    68 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    69 => NULL,
+    83 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    85 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\DeleteCompanyAddress.php' => 
+  array (
+    62 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    63 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    64 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    66 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    67 => 
+    array (
+    ),
+    69 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    70 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    71 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    72 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\CompanyValidator.php' => 
+  array (
+    62 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    63 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    64 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    65 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    66 => NULL,
+    83 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    85 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    86 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    87 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    88 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    90 => NULL,
+    104 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    113 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Models\\Address.php' => 
+  array (
+    105 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    108 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    109 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    110 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AddressInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\ContactAddressInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\AmendmentNoteRepository.php' => 
+  array (
+    62 => 
+    array (
+    ),
+    63 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => NULL,
+    94 => 
+    array (
+    ),
+    95 => NULL,
+    111 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    113 => 
+    array (
+    ),
+    114 => 
+    array (
+    ),
+    118 => 
+    array (
+    ),
+    120 => 
+    array (
+    ),
+    122 => 
+    array (
+    ),
+    123 => NULL,
+    138 => 
+    array (
+    ),
+    139 => NULL,
+    154 => 
+    array (
+    ),
+    155 => NULL,
+    170 => 
+    array (
+    ),
+    171 => NULL,
+    186 => 
+    array (
+    ),
+    187 => NULL,
+    203 => 
+    array (
+    ),
+    204 => NULL,
+    217 => 
+    array (
+    ),
+    218 => NULL,
+    233 => 
+    array (
+    ),
+    234 => 
+    array (
+    ),
+    236 => 
+    array (
+    ),
+    237 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\PortfolioInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\AmendmentNote\\AddNote.php' => 
+  array (
+    65 => 
+    array (
+    ),
+    66 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    80 => 
+    array (
+    ),
+    81 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+    86 => 
+    array (
+    ),
+    88 => 
+    array (
+    ),
+    104 => 
+    array (
+    ),
+    105 => 
+    array (
+    ),
+    106 => 
+    array (
+    ),
+    107 => 
+    array (
+    ),
+    108 => 
+    array (
+    ),
+    109 => 
+    array (
+    ),
+    110 => 
+    array (
+    ),
+    111 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    114 => 
+    array (
+    ),
+    118 => 
+    array (
+    ),
+    119 => NULL,
+    134 => 
+    array (
+    ),
+    135 => 
+    array (
+    ),
+    136 => 
+    array (
+    ),
+    140 => 
+    array (
+    ),
+    141 => NULL,
+    158 => 
+    array (
+    ),
+    159 => 
+    array (
+    ),
+    160 => 
+    array (
+    ),
+    161 => 
+    array (
+    ),
+    162 => 
+    array (
+    ),
+    163 => 
+    array (
+    ),
+    165 => 
+    array (
+    ),
+    166 => 
+    array (
+    ),
+    167 => 
+    array (
+    ),
+    170 => 
+    array (
+    ),
+    171 => 
+    array (
+    ),
+    174 => 
+    array (
+    ),
+    175 => NULL,
+    191 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    192 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    193 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    194 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    197 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    198 => NULL,
+    217 => 
+    array (
+    ),
+    218 => 
+    array (
+    ),
+    219 => 
+    array (
+    ),
+    220 => 
+    array (
+    ),
+    222 => 
+    array (
+    ),
+    223 => 
+    array (
+    ),
+    224 => 
+    array (
+    ),
+    225 => 
+    array (
+    ),
+    226 => 
+    array (
+    ),
+    227 => 
+    array (
+    ),
+    228 => 
+    array (
+    ),
+    229 => 
+    array (
+    ),
+    230 => 
+    array (
+    ),
+    232 => 
+    array (
+    ),
+    247 => 
+    array (
+    ),
+    248 => 
+    array (
+    ),
+    249 => 
+    array (
+    ),
+    250 => 
+    array (
+    ),
+    252 => 
+    array (
+    ),
+    253 => 
+    array (
+    ),
+    255 => 
+    array (
+    ),
+    256 => 
+    array (
+    ),
+    257 => 
+    array (
+    ),
+    259 => 
+    array (
+    ),
+    260 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\AmendmentNote\\ShowAmendmentNotes.php' => 
+  array (
+    61 => 
+    array (
+    ),
+    62 => 
+    array (
+    ),
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Transformers\\AddressTransformer.php' => 
+  array (
+    62 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    63 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    64 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    65 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    66 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    67 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    68 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    69 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    70 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    71 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    72 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    73 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    74 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    75 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    76 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    78 => NULL,
+    93 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    94 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    95 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    96 => NULL,
+    110 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    126 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\UpdateCompany.php' => 
+  array (
+    64 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    65 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    66 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    67 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    69 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    71 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    94 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    95 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    96 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    97 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    98 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Controllers\\CompanyWebController.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\ReferencesInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\UpdateCompanyAddress.php' => 
+  array (
+    68 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    69 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    70 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    71 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    72 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    73 => 
+    array (
+    ),
+    75 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    76 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    77 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    79 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    81 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    82 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    83 => 
+    array (
+    ),
+    85 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Tests\\CompanyAddressTest.php' => 
+  array (
+    70 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    71 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    72 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    85 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    86 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    87 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    88 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    90 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    92 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    93 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    94 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    96 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    97 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    99 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    100 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    101 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    102 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    115 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    116 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    117 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    118 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    119 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    120 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    122 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    127 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    128 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    129 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    130 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    132 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    133 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    134 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    135 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    137 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    138 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    139 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    140 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    155 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    156 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    157 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    158 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    159 => NULL,
+    176 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    177 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    178 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    179 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    180 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    181 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    182 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    183 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    184 => NULL,
+    200 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    201 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    202 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    203 => NULL,
+    216 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    217 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    218 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    219 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Controllers\\CompanyAddressController.php' => 
+  array (
+    90 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    91 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    92 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    93 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    95 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    96 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    221 => 
+    array (
+    ),
+    222 => NULL,
+    234 => 
+    array (
+    ),
+    235 => NULL,
+    324 => 
+    array (
+    ),
+    325 => NULL,
+    404 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    405 => NULL,
+    499 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    500 => NULL,
+    591 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    592 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AssignGroupInterface.php' => 
+  array (
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\CompanyRelationships.php' => 
+  array (
+    64 => 
+    array (
+    ),
+    65 => 
+    array (
+    ),
+    67 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    70 => 
+    array (
+    ),
+    71 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    78 => 
+    array (
+    ),
+    79 => 
+    array (
+    ),
+    80 => 
+    array (
+    ),
+    82 => 
+    array (
+    ),
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Transformers\\CompanyAddressTransformer.php' => 
+  array (
+    59 => 
+    array (
+    ),
+    60 => 
+    array (
+    ),
+    61 => 
+    array (
+    ),
+    63 => NULL,
+  ),
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\CompanyRepository.php' => 
+  array (
+    61 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      2 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    62 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+      2 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail',
+    ),
+    77 => 
+    array (
+    ),
+    78 => NULL,
+    93 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    94 => NULL,
+    110 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    111 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+    ),
+    112 => NULL,
+    127 => 
+    array (
+    ),
+    128 => NULL,
+    143 => 
+    array (
+    ),
+    144 => NULL,
+    159 => 
+    array (
+    ),
+    160 => NULL,
+    176 => 
+    array (
+    ),
+    177 => NULL,
+    190 => 
+    array (
+      0 => 'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi',
+      1 => 'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi',
+    ),
+    191 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => NULL,
+  ),
+  'Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Tests\\CompanyAddressTest.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Tests\\CompanyTest.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Controllers\\CompanyAddressController.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Controllers\\CompanyAddressWebController.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Controllers\\CompanyController.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Controllers\\CompanyWebController.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Models\\Address.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Models\\Company.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Models\\CompanyAddress.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\AddressRepository.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\AmendmentNoteRepository.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\CompanyRepository.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AddressInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AmendmentNoteInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AssignBankInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AssignFeeInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\AssignGroupInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\BusinessInfoInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\CompanyAddressInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\CompanyInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\ContactAddressInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\ContactInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\FundSecurityInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\InformationInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\MarketingInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\PortfolioInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\PrincipalInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\ReferencesInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Repositories\\Contracts\\TieredPricingInterface.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\AddCompanyAddress.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\AddressAttributes.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\AddressValidator.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\DeleteCompanyAddress.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\ListCompanyAddress.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\ShowCompanyAddress.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Address\\UpdateCompanyAddress.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\AmendmentNote\\AddNote.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\AmendmentNote\\ShowAmendmentNotes.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\AddCompany.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\CompanyActivateDeactivate.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\CompanyAttributes.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\CompanyRelationships.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\CompanyValidator.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\ListCompany.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\ShowCompany.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Traits\\Company\\UpdateCompany.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Transformers\\AddressTransformer.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Transformers\\AmendmentNoteTransformer.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Transformers\\CompanyAddressTransformer.php' => true,
+  'D:\\Projects\\vericheckdemo\\workspace\\modules\\company\\src\\Transformers\\CompanyTransformer.php' => true,
+));
+
+return $coverage;

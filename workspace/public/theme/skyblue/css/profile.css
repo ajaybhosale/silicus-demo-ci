@@ -1,0 +1,38 @@
+.profile-image {
+    border: 5px solid white;
+    outline: 1px solid #dbdee0;
+    width: 20%;
+}
+.profile h3 {
+    padding: 0 5px;
+}
+ul.profile-details {
+    color: #7c848d;
+    list-style: outside none none;
+    margin-top: 10px;
+    padding: 0 5px;
+}
+ul.profile-details li {
+    margin: 0 0 20px;
+    padding-left: 22px;
+    position: relative;
+}
+ul.profile-details li div {
+    color: #b2b8bd;
+}
+
+ul.profile-details li input[type="text"] {
+    color: black !important;
+}
+
+.kv-avatar .file-preview-frame,.kv-avatar .file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+.kv-avatar .file-input {
+    display: table-cell;
+    max-width: 220px;
+}

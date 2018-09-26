@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for D:\Projects\vericheckdemo\workspace\modules/company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../.css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href="../.css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+  <script src="../.js/html5shiv.min.js"></script>
+  <script src="../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">D:\Projects\vericheckdemo\workspace\modules</a></li>
+        <li><a href="index.html">company</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#44">Modules\Company\Repositories\AmendmentNoteRepository</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/AmendmentNoteTransformer.php.html#44">Modules\Company\Transformers\AmendmentNoteTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/CompanyAddressTransformer.php.html#42">Modules\Company\Transformers\CompanyAddressTransformer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Address/ListCompanyAddress.php.html#46">ListCompanyAddress</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Address/ShowCompanyAddress.php.html#45">ShowCompanyAddress</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#47">AddNote</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/ShowAmendmentNotes.php.html#43">ShowAmendmentNotes</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Company/ShowCompany.php.html#42">ShowCompany</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#45">Modules\Company\Repositories\AddressRepository</a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="src/Repositories/CompanyRepository.php.html#43">Modules\Company\Repositories\CompanyRepository</a></td><td class="text-right">54%</td></tr>
+       <tr><td><a href="src/Traits/Company/AddCompany.php.html#42">AddCompany</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="src/Traits/Company/ListCompany.php.html#46">ListCompany</a></td><td class="text-right">63%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#47">AddNote</a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#44">Modules\Company\Repositories\AmendmentNoteRepository</a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="src/Traits/Address/ShowCompanyAddress.php.html#45">ShowCompanyAddress</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/Address/ListCompanyAddress.php.html#46">ListCompanyAddress</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/ShowAmendmentNotes.php.html#43">ShowAmendmentNotes</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Traits/Company/ShowCompany.php.html#42">ShowCompany</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Traits/Company/AddCompany.php.html#42">AddCompany</a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="src/Traits/Company/ListCompany.php.html#46">ListCompany</a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Controllers/CompanyAddressController.php.html#215"><abbr title="Modules\Company\Controllers\CompanyAddressController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Address/ListCompanyAddress.php.html#63"><abbr title="ListCompanyAddress::listCompanyAddress">listCompanyAddress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/CompanyRepository.php.html#141"><abbr title="Modules\Company\Repositories\CompanyRepository::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/CompanyRepository.php.html#157"><abbr title="Modules\Company\Repositories\CompanyRepository::findOneBy">findOneBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/CompanyRepository.php.html#174"><abbr title="Modules\Company\Repositories\CompanyRepository::findIn">findIn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Tests/CompanyTest.php.html#138"><abbr title="Modules\Company\Tests\CompanyTest\CompanyTest::_addCompany">_addCompany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/AmendmentNoteTransformer.php.html#60"><abbr title="Modules\Company\Transformers\AmendmentNoteTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/AmendmentNoteTransformer.php.html#90"><abbr title="Modules\Company\Transformers\AmendmentNoteTransformer::transformRequestParameters">transformRequestParameters</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/AmendmentNoteTransformer.php.html#105"><abbr title="Modules\Company\Transformers\AmendmentNoteTransformer::amendmentNoteTransformRequest">amendmentNoteTransformRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Transformers/CompanyAddressTransformer.php.html#56"><abbr title="Modules\Company\Transformers\CompanyAddressTransformer::transform">transform</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Address/ShowCompanyAddress.php.html#60"><abbr title="ShowCompanyAddress::showCompanyAddress">showCompanyAddress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/CompanyAddressController.php.html#305"><abbr title="Modules\Company\Controllers\CompanyAddressController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#63"><abbr title="AddNote::addNote">addNote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#102"><abbr title="AddNote::_processNoteData">_processNoteData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#132"><abbr title="AddNote::_unsetKeys">_unsetKeys</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#155"><abbr title="AddNote::arrayDiffAssocRecursive">arrayDiffAssocRecursive</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#189"><abbr title="AddNote::getDifference">getDifference</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#215"><abbr title="AddNote::createNote">createNote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#245"><abbr title="AddNote::_setNotesData">_setNotesData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/ShowAmendmentNotes.php.html#57"><abbr title="ShowAmendmentNotes::showAmendmentNotes">showAmendmentNotes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Company/ShowCompany.php.html#56"><abbr title="ShowCompany::showCompany">showCompany</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/CompanyRepository.php.html#125"><abbr title="Modules\Company\Repositories\CompanyRepository::findOne">findOne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/CompanyRepository.php.html#75"><abbr title="Modules\Company\Repositories\CompanyRepository::all">all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#231"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::getNotes">getNotes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#215"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::getTableName">getTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Controllers/CompanyController.php.html#439"><abbr title="Modules\Company\Controllers\CompanyController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#77"><abbr title="Modules\Company\Repositories\AddressRepository::all">all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#110"><abbr title="Modules\Company\Repositories\AddressRepository::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#127"><abbr title="Modules\Company\Repositories\AddressRepository::findBy">findBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#143"><abbr title="Modules\Company\Repositories\AddressRepository::findOne">findOne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#175"><abbr title="Modules\Company\Repositories\AddressRepository::findOneBy">findOneBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#192"><abbr title="Modules\Company\Repositories\AddressRepository::findIn">findIn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#206"><abbr title="Modules\Company\Repositories\AddressRepository::getTableName">getTableName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#222"><abbr title="Modules\Company\Repositories\AddressRepository::getAllAddressesByContactId">getAllAddressesByContactId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AddressRepository.php.html#242"><abbr title="Modules\Company\Repositories\AddressRepository::getAllAddressesByCompanyId">getAllAddressesByCompanyId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#60"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#76"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::all">all</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#92"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::save">save</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#109"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#136"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::findBy">findBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#152"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::findOne">findOne</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#168"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#184"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::findOneBy">findOneBy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#201"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::findIn">findIn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="src/Traits/Company/AddCompany.php.html#56"><abbr title="AddCompany::addCompany">addCompany</abbr></a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="src/Traits/Company/ListCompany.php.html#62"><abbr title="ListCompany::listCompany">listCompany</abbr></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="src/Traits/Company/UpdateCompany.php.html#60"><abbr title="UpdateCompany::updateCompany">updateCompany</abbr></a></td><td class="text-right">66%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#155"><abbr title="AddNote::arrayDiffAssocRecursive">arrayDiffAssocRecursive</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#63"><abbr title="AddNote::addNote">addNote</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#245"><abbr title="AddNote::_setNotesData">_setNotesData</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#102"><abbr title="AddNote::_processNoteData">_processNoteData</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="src/Repositories/AmendmentNoteRepository.php.html#109"><abbr title="Modules\Company\Repositories\AmendmentNoteRepository::update">update</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/Address/ShowCompanyAddress.php.html#60"><abbr title="ShowCompanyAddress::showCompanyAddress">showCompanyAddress</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#132"><abbr title="AddNote::_unsetKeys">_unsetKeys</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#189"><abbr title="AddNote::getDifference">getDifference</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/AddNote.php.html#215"><abbr title="AddNote::createNote">createNote</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="src/Traits/Address/ListCompanyAddress.php.html#63"><abbr title="ListCompanyAddress::listCompanyAddress">listCompanyAddress</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Traits/AmendmentNote/ShowAmendmentNotes.php.html#57"><abbr title="ShowAmendmentNotes::showAmendmentNotes">showAmendmentNotes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Traits/Company/ShowCompany.php.html#56"><abbr title="ShowCompany::showCompany">showCompany</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="src/Traits/Company/AddCompany.php.html#56"><abbr title="AddCompany::addCompany">addCompany</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="src/Traits/Company/ListCompany.php.html#62"><abbr title="ListCompany::listCompany">listCompany</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="src/Traits/Company/UpdateCompany.php.html#60"><abbr title="UpdateCompany::updateCompany">updateCompany</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.3.2</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.9</a> with <a href="https://xdebug.org/">Xdebug 2.6.0</a> and <a href="https://phpunit.de/">PHPUnit 6.5.11</a> at Mon Aug 20 8:21:22 UTC 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,0,1,0,0,2,1,3,4,0,14], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([44,0,0,0,0,0,1,2,3,0,0,62], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,4,"<a href=\"migrations\/2018_02_20_091546_create_company_table.php.html#41\">CreateCompanyTable<\/a>"],[100,4,"<a href=\"migrations\/2018_02_21_100210_create_address_table.php.html#40\">CreateAddressTable<\/a>"],[100,4,"<a href=\"migrations\/2018_02_21_105539_create_companyaddress_table.php.html#41\">CreateCompanyaddressTable<\/a>"],[100,1,"<a href=\"src\/CompanyServiceProvider.php.html#41\">Modules\\Company\\CompanyServiceProvider<\/a>"],[81.81818181818183,6,"<a href=\"src\/Controllers\/CompanyAddressController.php.html#55\">Modules\\Company\\Controllers\\CompanyAddressController<\/a>"],[88.88888888888889,5,"<a href=\"src\/Controllers\/CompanyController.php.html#53\">Modules\\Company\\Controllers\\CompanyController<\/a>"],[100,1,"<a href=\"src\/Models\/Address.php.html#42\">Modules\\Company\\Models\\Address<\/a>"],[100,1,"<a href=\"src\/Models\/Company.php.html#42\">Modules\\Company\\Models\\Company<\/a>"],[100,1,"<a href=\"src\/Models\/CompanyAddress.php.html#41\">Modules\\Company\\Models\\CompanyAddress<\/a>"],[22.22222222222222,12,"<a href=\"src\/Repositories\/AddressRepository.php.html#45\">Modules\\Company\\Repositories\\AddressRepository<\/a>"],[0,13,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#44\">Modules\\Company\\Repositories\\AmendmentNoteRepository<\/a>"],[54.54545454545454,9,"<a href=\"src\/Repositories\/CompanyRepository.php.html#43\">Modules\\Company\\Repositories\\CompanyRepository<\/a>"],[100,7,"<a href=\"src\/Tests\/CompanyAddressTest.php.html#48\">Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest<\/a>"],[86.66666666666667,6,"<a href=\"src\/Tests\/CompanyTest.php.html#44\">Modules\\Company\\Tests\\CompanyTest\\CompanyTest<\/a>"],[100,3,"<a href=\"src\/Transformers\/AddressTransformer.php.html#43\">Modules\\Company\\Transformers\\AddressTransformer<\/a>"],[0,3,"<a href=\"src\/Transformers\/AmendmentNoteTransformer.php.html#44\">Modules\\Company\\Transformers\\AmendmentNoteTransformer<\/a>"],[0,1,"<a href=\"src\/Transformers\/CompanyAddressTransformer.php.html#42\">Modules\\Company\\Transformers\\CompanyAddressTransformer<\/a>"],[100,3,"<a href=\"src\/Transformers\/CompanyTransformer.php.html#44\">Modules\\Company\\Transformers\\CompanyTransformer<\/a>"],[86.66666666666667,4,"<a href=\"src\/Traits\/Address\/AddCompanyAddress.php.html#46\">AddCompanyAddress<\/a>"],[100,2,"<a href=\"src\/Traits\/Address\/AddressAttributes.php.html#41\">AddressAttributes<\/a>"],[100,2,"<a href=\"src\/Traits\/Address\/AddressValidator.php.html#42\">AddressValidator<\/a>"],[70,3,"<a href=\"src\/Traits\/Address\/DeleteCompanyAddress.php.html#44\">DeleteCompanyAddress<\/a>"],[0,2,"<a href=\"src\/Traits\/Address\/ListCompanyAddress.php.html#46\">ListCompanyAddress<\/a>"],[0,3,"<a href=\"src\/Traits\/Address\/ShowCompanyAddress.php.html#45\">ShowCompanyAddress<\/a>"],[70,3,"<a href=\"src\/Traits\/Address\/UpdateCompanyAddress.php.html#47\">UpdateCompanyAddress<\/a>"],[0,38,"<a href=\"src\/Traits\/AmendmentNote\/AddNote.php.html#47\">AddNote<\/a>"],[0,2,"<a href=\"src\/Traits\/AmendmentNote\/ShowAmendmentNotes.php.html#43\">ShowAmendmentNotes<\/a>"],[55.55555555555556,2,"<a href=\"src\/Traits\/Company\/AddCompany.php.html#42\">AddCompany<\/a>"],[100,2,"<a href=\"src\/Traits\/Company\/CompanyAttributes.php.html#42\">CompanyAttributes<\/a>"],[100,5,"<a href=\"src\/Traits\/Company\/CompanyValidator.php.html#42\">CompanyValidator<\/a>"],[63.63636363636363,2,"<a href=\"src\/Traits\/Company\/ListCompany.php.html#46\">ListCompany<\/a>"],[0,2,"<a href=\"src\/Traits\/Company\/ShowCompany.php.html#42\">ShowCompany<\/a>"],[76.92307692307693,4,"<a href=\"src\/Traits\/Company\/UpdateCompany.php.html#45\">UpdateCompany<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"migrations\/2018_02_20_091546_create_company_table.php.html#58\">CreateCompanyTable::__construct<\/a>"],[100,1,"<a href=\"migrations\/2018_02_20_091546_create_company_table.php.html#76\">CreateCompanyTable::up<\/a>"],[100,1,"<a href=\"migrations\/2018_02_20_091546_create_company_table.php.html#78\">CreateCompanyTable::anonymousFunction:78#151<\/a>"],[100,1,"<a href=\"migrations\/2018_02_20_091546_create_company_table.php.html#99\">CreateCompanyTable::down<\/a>"],[100,1,"<a href=\"migrations\/2018_02_21_100210_create_address_table.php.html#54\">CreateAddressTable::__construct<\/a>"],[100,1,"<a href=\"migrations\/2018_02_21_100210_create_address_table.php.html#72\">CreateAddressTable::up<\/a>"],[100,1,"<a href=\"migrations\/2018_02_21_100210_create_address_table.php.html#74\">CreateAddressTable::anonymousFunction:74#128<\/a>"],[100,1,"<a href=\"migrations\/2018_02_21_100210_create_address_table.php.html#103\">CreateAddressTable::down<\/a>"],[100,1,"<a href=\"migrations\/2018_02_21_105539_create_companyaddress_table.php.html#57\">CreateCompanyaddressTable::__construct<\/a>"],[100,1,"<a href=\"migrations\/2018_02_21_105539_create_companyaddress_table.php.html#75\">CreateCompanyaddressTable::up<\/a>"],[100,1,"<a href=\"migrations\/2018_02_21_105539_create_companyaddress_table.php.html#85\">CreateCompanyaddressTable::anonymousFunction:85#146<\/a>"],[100,1,"<a href=\"migrations\/2018_02_21_105539_create_companyaddress_table.php.html#104\">CreateCompanyaddressTable::down<\/a>"],[100,1,"<a href=\"src\/CompanyServiceProvider.php.html#53\">Modules\\Company\\CompanyServiceProvider::boot<\/a>"],[100,1,"<a href=\"src\/Controllers\/CompanyAddressController.php.html#84\">Modules\\Company\\Controllers\\CompanyAddressController::__construct<\/a>"],[0,1,"<a href=\"src\/Controllers\/CompanyAddressController.php.html#215\">Modules\\Company\\Controllers\\CompanyAddressController::index<\/a>"],[0,1,"<a href=\"src\/Controllers\/CompanyAddressController.php.html#305\">Modules\\Company\\Controllers\\CompanyAddressController::show<\/a>"],[100,1,"<a href=\"src\/Controllers\/CompanyAddressController.php.html#385\">Modules\\Company\\Controllers\\CompanyAddressController::store<\/a>"],[100,1,"<a href=\"src\/Controllers\/CompanyAddressController.php.html#480\">Modules\\Company\\Controllers\\CompanyAddressController::update<\/a>"],[100,1,"<a href=\"src\/Controllers\/CompanyAddressController.php.html#572\">Modules\\Company\\Controllers\\CompanyAddressController::destroy<\/a>"],[100,1,"<a href=\"src\/Controllers\/CompanyController.php.html#79\">Modules\\Company\\Controllers\\CompanyController::__construct<\/a>"],[100,1,"<a href=\"src\/Controllers\/CompanyController.php.html#205\">Modules\\Company\\Controllers\\CompanyController::index<\/a>"],[100,1,"<a href=\"src\/Controllers\/CompanyController.php.html#276\">Modules\\Company\\Controllers\\CompanyController::store<\/a>"],[100,1,"<a href=\"src\/Controllers\/CompanyController.php.html#362\">Modules\\Company\\Controllers\\CompanyController::update<\/a>"],[0,1,"<a href=\"src\/Controllers\/CompanyController.php.html#439\">Modules\\Company\\Controllers\\CompanyController::show<\/a>"],[100,1,"<a href=\"src\/Models\/Address.php.html#103\">Modules\\Company\\Models\\Address::__construct<\/a>"],[100,1,"<a href=\"src\/Models\/Company.php.html#88\">Modules\\Company\\Models\\Company::__construct<\/a>"],[100,1,"<a href=\"src\/Models\/CompanyAddress.php.html#67\">Modules\\Company\\Models\\CompanyAddress::__construct<\/a>"],[100,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#61\">Modules\\Company\\Repositories\\AddressRepository::__construct<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#77\">Modules\\Company\\Repositories\\AddressRepository::all<\/a>"],[100,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#93\">Modules\\Company\\Repositories\\AddressRepository::save<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#110\">Modules\\Company\\Repositories\\AddressRepository::update<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#127\">Modules\\Company\\Repositories\\AddressRepository::findBy<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#143\">Modules\\Company\\Repositories\\AddressRepository::findOne<\/a>"],[100,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#159\">Modules\\Company\\Repositories\\AddressRepository::delete<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#175\">Modules\\Company\\Repositories\\AddressRepository::findOneBy<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#192\">Modules\\Company\\Repositories\\AddressRepository::findIn<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#206\">Modules\\Company\\Repositories\\AddressRepository::getTableName<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#222\">Modules\\Company\\Repositories\\AddressRepository::getAllAddressesByContactId<\/a>"],[0,1,"<a href=\"src\/Repositories\/AddressRepository.php.html#242\">Modules\\Company\\Repositories\\AddressRepository::getAllAddressesByCompanyId<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#60\">Modules\\Company\\Repositories\\AmendmentNoteRepository::__construct<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#76\">Modules\\Company\\Repositories\\AmendmentNoteRepository::all<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#92\">Modules\\Company\\Repositories\\AmendmentNoteRepository::save<\/a>"],[0,3,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#109\">Modules\\Company\\Repositories\\AmendmentNoteRepository::update<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#136\">Modules\\Company\\Repositories\\AmendmentNoteRepository::findBy<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#152\">Modules\\Company\\Repositories\\AmendmentNoteRepository::findOne<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#168\">Modules\\Company\\Repositories\\AmendmentNoteRepository::delete<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#184\">Modules\\Company\\Repositories\\AmendmentNoteRepository::findOneBy<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#201\">Modules\\Company\\Repositories\\AmendmentNoteRepository::findIn<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#215\">Modules\\Company\\Repositories\\AmendmentNoteRepository::getTableName<\/a>"],[0,1,"<a href=\"src\/Repositories\/AmendmentNoteRepository.php.html#231\">Modules\\Company\\Repositories\\AmendmentNoteRepository::getNotes<\/a>"],[100,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#59\">Modules\\Company\\Repositories\\CompanyRepository::__construct<\/a>"],[0,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#75\">Modules\\Company\\Repositories\\CompanyRepository::all<\/a>"],[100,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#91\">Modules\\Company\\Repositories\\CompanyRepository::save<\/a>"],[100,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#108\">Modules\\Company\\Repositories\\CompanyRepository::update<\/a>"],[0,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#125\">Modules\\Company\\Repositories\\CompanyRepository::findOne<\/a>"],[0,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#141\">Modules\\Company\\Repositories\\CompanyRepository::delete<\/a>"],[0,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#157\">Modules\\Company\\Repositories\\CompanyRepository::findOneBy<\/a>"],[0,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#174\">Modules\\Company\\Repositories\\CompanyRepository::findIn<\/a>"],[100,1,"<a href=\"src\/Repositories\/CompanyRepository.php.html#188\">Modules\\Company\\Repositories\\CompanyRepository::getTableName<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyAddressTest.php.html#68\">Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::setup<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyAddressTest.php.html#83\">Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressApi<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyAddressTest.php.html#113\">Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::testCRUDAddressFail<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyAddressTest.php.html#150\">Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::_addAddress<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyAddressTest.php.html#170\">Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::_updateAddress<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyAddressTest.php.html#195\">Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::_deleteAddress<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyAddressTest.php.html#211\">Modules\\Company\\Tests\\CompanyAddressTest\\CompanyAddressTest::_getFakeAddrId<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyTest.php.html#60\">Modules\\Company\\Tests\\CompanyTest\\CompanyTest::setup<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyTest.php.html#77\">Modules\\Company\\Tests\\CompanyTest\\CompanyTest::testCRUDCompanyApi<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyTest.php.html#106\">Modules\\Company\\Tests\\CompanyTest\\CompanyTest::_listCompanies<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyTest.php.html#122\">Modules\\Company\\Tests\\CompanyTest\\CompanyTest::_listCompaniesPagi<\/a>"],[0,1,"<a href=\"src\/Tests\/CompanyTest.php.html#138\">Modules\\Company\\Tests\\CompanyTest\\CompanyTest::_addCompany<\/a>"],[100,1,"<a href=\"src\/Tests\/CompanyTest.php.html#157\">Modules\\Company\\Tests\\CompanyTest\\CompanyTest::_editCompany<\/a>"],[100,1,"<a href=\"src\/Transformers\/AddressTransformer.php.html#59\">Modules\\Company\\Transformers\\AddressTransformer::transform<\/a>"],[100,1,"<a href=\"src\/Transformers\/AddressTransformer.php.html#91\">Modules\\Company\\Transformers\\AddressTransformer::transformRequestParameters<\/a>"],[100,1,"<a href=\"src\/Transformers\/AddressTransformer.php.html#107\">Modules\\Company\\Transformers\\AddressTransformer::addressTransformRequest<\/a>"],[0,1,"<a href=\"src\/Transformers\/AmendmentNoteTransformer.php.html#60\">Modules\\Company\\Transformers\\AmendmentNoteTransformer::transform<\/a>"],[0,1,"<a href=\"src\/Transformers\/AmendmentNoteTransformer.php.html#90\">Modules\\Company\\Transformers\\AmendmentNoteTransformer::transformRequestParameters<\/a>"],[0,1,"<a href=\"src\/Transformers\/AmendmentNoteTransformer.php.html#105\">Modules\\Company\\Transformers\\AmendmentNoteTransformer::amendmentNoteTransformRequest<\/a>"],[0,1,"<a href=\"src\/Transformers\/CompanyAddressTransformer.php.html#56\">Modules\\Company\\Transformers\\CompanyAddressTransformer::transform<\/a>"],[100,1,"<a href=\"src\/Transformers\/CompanyTransformer.php.html#60\">Modules\\Company\\Transformers\\CompanyTransformer::transform<\/a>"],[100,1,"<a href=\"src\/Transformers\/CompanyTransformer.php.html#83\">Modules\\Company\\Transformers\\CompanyTransformer::transformRequestParameters<\/a>"],[100,1,"<a href=\"src\/Transformers\/CompanyTransformer.php.html#99\">Modules\\Company\\Transformers\\CompanyTransformer::transformRequest<\/a>"],[77.77777777777779,2,"<a href=\"src\/Traits\/Address\/AddCompanyAddress.php.html#61\">AddCompanyAddress::addCompanyAddress<\/a>"],[100,1,"<a href=\"src\/Traits\/Address\/AddCompanyAddress.php.html#91\">AddCompanyAddress::_addCompanyAddressTransaction<\/a>"],[100,1,"<a href=\"src\/Traits\/Address\/AddCompanyAddress.php.html#94\">AddCompanyAddress::anonymousFunction:94#265<\/a>"],[100,1,"<a href=\"src\/Traits\/Address\/AddressAttributes.php.html#53\">AddressAttributes::_setAddressAttributes<\/a>"],[100,1,"<a href=\"src\/Traits\/Address\/AddressAttributes.php.html#82\">AddressAttributes::_setAddressAttributeCode<\/a>"],[100,1,"<a href=\"src\/Traits\/Address\/AddressValidator.php.html#54\">AddressValidator::_addressValidationRules<\/a>"],[100,1,"<a href=\"src\/Traits\/Address\/AddressValidator.php.html#80\">AddressValidator::_addressValidationMessage<\/a>"],[70,3,"<a href=\"src\/Traits\/Address\/DeleteCompanyAddress.php.html#59\">DeleteCompanyAddress::deleteCompanyAddress<\/a>"],[0,2,"<a href=\"src\/Traits\/Address\/ListCompanyAddress.php.html#63\">ListCompanyAddress::listCompanyAddress<\/a>"],[0,3,"<a href=\"src\/Traits\/Address\/ShowCompanyAddress.php.html#60\">ShowCompanyAddress::showCompanyAddress<\/a>"],[70,3,"<a href=\"src\/Traits\/Address\/UpdateCompanyAddress.php.html#65\">UpdateCompanyAddress::updateCompanyAddress<\/a>"],[0,7,"<a href=\"src\/Traits\/AmendmentNote\/AddNote.php.html#63\">AddNote::addNote<\/a>"],[0,4,"<a href=\"src\/Traits\/AmendmentNote\/AddNote.php.html#102\">AddNote::_processNoteData<\/a>"],[0,3,"<a href=\"src\/Traits\/AmendmentNote\/AddNote.php.html#132\">AddNote::_unsetKeys<\/a>"],[0,12,"<a href=\"src\/Traits\/AmendmentNote\/AddNote.php.html#155\">AddNote::arrayDiffAssocRecursive<\/a>"],[0,3,"<a href=\"src\/Traits\/AmendmentNote\/AddNote.php.html#189\">AddNote::getDifference<\/a>"],[0,3,"<a href=\"src\/Traits\/AmendmentNote\/AddNote.php.html#215\">AddNote::createNote<\/a>"],[0,6,"<a href=\"src\/Traits\/AmendmentNote\/AddNote.php.html#245\">AddNote::_setNotesData<\/a>"],[0,2,"<a href=\"src\/Traits\/AmendmentNote\/ShowAmendmentNotes.php.html#57\">ShowAmendmentNotes::showAmendmentNotes<\/a>"],[55.55555555555556,2,"<a href=\"src\/Traits\/Company\/AddCompany.php.html#56\">AddCompany::addCompany<\/a>"],[100,1,"<a href=\"src\/Traits\/Company\/CompanyAttributes.php.html#54\">CompanyAttributes::_setAttributes<\/a>"],[100,1,"<a href=\"src\/Traits\/Company\/CompanyAttributes.php.html#74\">CompanyAttributes::_setAttributeCode<\/a>"],[100,1,"<a href=\"src\/Traits\/Company\/CompanyValidator.php.html#56\">CompanyValidator::_validationRules<\/a>"],[100,3,"<a href=\"src\/Traits\/Company\/CompanyValidator.php.html#78\">CompanyValidator::_basicRules<\/a>"],[100,1,"<a href=\"src\/Traits\/Company\/CompanyValidator.php.html#98\">CompanyValidator::_validationMessage<\/a>"],[63.63636363636363,2,"<a href=\"src\/Traits\/Company\/ListCompany.php.html#62\">ListCompany::listCompany<\/a>"],[0,2,"<a href=\"src\/Traits\/Company\/ShowCompany.php.html#56\">ShowCompany::showCompany<\/a>"],[66.66666666666666,2,"<a href=\"src\/Traits\/Company\/UpdateCompany.php.html#60\">UpdateCompany::updateCompany<\/a>"],[100,1,"<a href=\"src\/Traits\/Company\/UpdateCompany.php.html#90\">UpdateCompany::_processUpdateCompanyTransaction<\/a>"],[100,1,"<a href=\"src\/Traits\/Company\/UpdateCompany.php.html#93\">UpdateCompany::anonymousFunction:93#267<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

@@ -1,0 +1,113 @@
+ .email-checkbox,.sms-checkbox,.push-checkbox {
+        margin-left: 20px;
+    }
+    .right-section {
+        display: inline-block;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #337ab7;
+    }
+    .left-sms-to,.left-push-to {
+        display: inline-block;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #337ab7;
+        padding: 1px 14px 10px 1px;
+        float:left;
+    }
+    .left-section {
+        display: inline-block;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #337ab7;
+        padding: 1px 27px 10px 1px;
+        float:left;
+    }
+    .temp-left {
+        display: inline-block;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #337ab7;
+        float: left;
+        padding: 1px 20px 10px 1px;
+    }
+    .alert-msg-email,.alert-msg-sms,.alert-msg-push {
+        display: none;
+    }
+    .template-name {
+        margin-left: 15px;
+    }
+    .clear {
+        min-height: 10px;
+    }
+    .temp-list {
+        min-width: 200px;
+    }
+    .temp-left-sms,.temp-left-push {
+        display: inline-block;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #337ab7;
+        float: left;
+        padding: 1px 51px 10px 1px;
+    }
+    .temp-left-img {
+        display: inline-block;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #337ab7;
+        float: left;
+        padding: 1px 38px 10px 1px;
+    }
+    .msg-failure {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        color: red;
+        padding-bottom: 10px;
+    }
+    .msg-success {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        color: #2ca02c;
+        padding-bottom: 10px;
+    }
+    .temp-user {
+        padding-right:52px;
+    }
+    .bolder {
+        font-weight: bold;
+    }
+    .notification-title-lbl {
+        padding-right: 48px
+    }
+    .abbr {
+        float:right;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 12px;
+        line-height: 1.42857;
+        color: #8D8B8B;
+    }
+    .abbr-sms {
+        float:right;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 12px;
+        line-height: 1.42857;
+        color: #8D8B8B;
+        padding-right:148px;
+    }
+    .abbr_list {
+        font-size: 16px;
+    }
+    .my-reminder .col-sm-3 {
+        padding-left: 0px;
+    }
+    .push-part .btn-primary {
+        margin-top: 0px;
+
+    }
