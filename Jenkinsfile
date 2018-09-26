@@ -102,11 +102,11 @@ vendor/bin/phpunit --log-junit build/logs/junit.xml'''
   }
   post {
     success {
-      mail(to: $EMAIL_ADDRESS, subject: "Success Pipeline..: ${currentBuild.fullDisplayName}", body: "Congratulations pipeline build successfully ${env.BUILD_URL}")
+      mail(to: 'ajay.bhosale@silicus.com', subject: "Success Pipeline..: ${currentBuild.fullDisplayName}", body: "Congratulations pipeline build successfully ${env.BUILD_URL}")
 
     }
     failure {
-      mail(to: $EMAIL_ADDRESS, subject: "Failed Pipeline: ${currentBuild.fullDisplayName}", body: "Something is wrong with ${env.BUILD_URL}")
+      mail(to: 'ajay.bhosale@silicus.com', subject: "Failed Pipeline: ${currentBuild.fullDisplayName}", body: "Something is wrong with ${env.BUILD_URL}")
 
     }
 
