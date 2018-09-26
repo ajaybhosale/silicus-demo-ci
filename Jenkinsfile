@@ -96,10 +96,7 @@ vendor/bin/phpunit --log-junit build/logs/junit.xml'''
         }
       }
     }
-  }
-  environment {
-    EMAIL_ADDRESS = 'ajay.bhosale@silicus.com'     
-  }
+  }  
   post {
     success {
       mail(to: 'ajay.bhosale@silicus.com', subject: "Success Pipeline..: ${currentBuild.fullDisplayName}", body: "Congratulations pipeline build successfully ${env.BUILD_URL}")
@@ -109,6 +106,5 @@ vendor/bin/phpunit --log-junit build/logs/junit.xml'''
       mail(to: 'ajay.bhosale@silicus.com', subject: "Failed Pipeline: ${currentBuild.fullDisplayName}", body: "Something is wrong with ${env.BUILD_URL}")
 
     }
-
   }
 }
