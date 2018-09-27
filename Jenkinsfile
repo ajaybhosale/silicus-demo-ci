@@ -73,20 +73,7 @@ vendor/bin/phpunit --log-junit build/logs/junit.xml'''
 -Dorg.sonar.plugins.jmeter.jtlpath==$WORKSPACE/workspace/build/jmeter.jtl \\
 -Dsonar.exclusions="workspace/app/**, workspace/bootstrap/**, workspace/build/**, workspace/resources/**,workspace/config/**, workspace/database/**, workspace/modules/infrastructure/**,workspace/modules/user/**, workspace/public/**, workspace/routes/**, workspace/storage/**, workspace/tests/**, workspace/vendor/**"'''
       }
-    }		
-    stage('Selenium Test Cases...') {
-      steps {	    
-		sh 'chmod -R 777 workspace/selenium/'
-        sh 'java -cp workspace/selenium/Restapi1/bin:workspace/selenium/Restapi1/lib/* org.testng.TestNG workspace/selenium/Restapi1/testng.xml'
-        step([$class: 'Publisher', reportFilenamePattern: '**/test-output/testng-results.xml'])		
-      }
-    }
-    stage('Jmeter Test Cases...') {
-      steps {
-        sh '/opt/apache-jmeter-4.0/bin/jmeter -Jjmeter.save.saveservice.output_format=xml -n -t JavaDevOps.jmx -l workspace/build/jmeter.jtl'
-        perfReport 'workspace/build/jmeter.jtl'
-      }
-    }  	    
+    }	       
     stage('Delete Workspace') {
       parallel {
         stage('Delete Workspace') {
