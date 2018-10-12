@@ -36,7 +36,7 @@ pipeline {
       }
     }
     stage('PHP Unit Test Cases...') {
-      steps {        
+      steps {
         sh '''cp dit-app.conf workspace/.env
 cd workspace
 chmod -R 777 storage/
@@ -53,13 +53,13 @@ vendor/bin/phpunit --log-junit build/logs/junit.xml'''
     stage('SonarQube Analysis') {
       environment {
         PROJECT_NAME = 'Silicus-PHP-Demo-CI'
-        PROJECT_KEY = 'silicus-php-demo-ci'        
-        SONAR_HOST_URL = 'http://silicus.eastus.cloudapp.azure.com:9000'
+        PROJECT_KEY = 'silicus-php-demo-ci'
+        SONAR_HOST_URL = 'https://codeanalysis.silicus.com/'
         PROJECT_SOURCE_ENCODING = 'UTF-8'
         PROJECT_LANGUAGE = 'php'
       }
       steps {
-        sh 'chmod -R 777 workspace/build'             
+        sh 'chmod -R 777 workspace/build'
         sh '''PROJECT_VERSION=1.0.$(date +%y)$(date +%j).$BUILD_NUMBER
 /opt/sonar/bin/sonar-runner -Dsonar.projectName=$PROJECT_NAME \\
 -Dsonar.projectKey=$PROJECT_KEY \\
@@ -73,7 +73,7 @@ vendor/bin/phpunit --log-junit build/logs/junit.xml'''
 -Dorg.sonar.plugins.jmeter.jtlpath==$WORKSPACE/workspace/build/jmeter.jtl \\
 -Dsonar.exclusions="workspace/app/**, workspace/bootstrap/**, workspace/build/**, workspace/resources/**,workspace/config/**, workspace/database/**, workspace/modules/infrastructure/**,workspace/modules/user/**, workspace/public/**, workspace/routes/**, workspace/storage/**, workspace/tests/**, workspace/vendor/**"'''
       }
-    }	       
+    }
     stage('Delete Workspace') {
       parallel {
         stage('Delete Workspace') {
@@ -83,15 +83,17 @@ vendor/bin/phpunit --log-junit build/logs/junit.xml'''
         }
       }
     }
-  }  
+  }
   post {
     success {
       mail(to: 'ajay.bhosale@silicus.com', subject: "Success Pipeline..: ${currentBuild.fullDisplayName}", body: "Congratulations pipeline build successfully ${env.BUILD_URL}")
 
     }
+
     failure {
       mail(to: 'ajay.bhosale@silicus.com', subject: "Failed Pipeline: ${currentBuild.fullDisplayName}", body: "Something is wrong with ${env.BUILD_URL}")
 
     }
+
   }
 }
