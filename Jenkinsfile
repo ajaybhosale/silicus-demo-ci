@@ -57,12 +57,14 @@ vendor/bin/phpunit --log-junit build/logs/junit.xml'''
         SONAR_HOST_URL = 'https://codeanalysis.silicus.com/'
         PROJECT_SOURCE_ENCODING = 'UTF-8'
         PROJECT_LANGUAGE = 'php'
+        SONAR_LOGIN = 'ee0efa18054280e8a8f4399bba3797086991119d'
       }
       steps {
         sh 'chmod -R 777 workspace/build'
         sh '''PROJECT_VERSION=1.0.$(date +%y)$(date +%j).$BUILD_NUMBER
 /opt/sonar/bin/sonar-runner -Dsonar.projectName=$PROJECT_NAME \\
 -Dsonar.projectKey=$PROJECT_KEY \\
+-Dsonar.login=$SONAR_LOGIN \\
 -Dsonar.host.url=$SONAR_HOST_URL \\
 -Dsonar.sourceEncoding=$PROJECT_SOURCE_ENCODING \\
 -Dsonar.sources=$WORKSPACE \\
